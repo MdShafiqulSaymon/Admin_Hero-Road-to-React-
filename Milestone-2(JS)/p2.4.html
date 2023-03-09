@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function operation() {
+            var f = parseFloat(document.getElementById("Fahrenheit").value);
+            var c = (f - 32);
+            c = c * 5;
+            c = c / 9;
+            document.getElementById("ans").innerHTML = c;
+        }
+    </script>
+</head>
+
+<body>
+    <label for="">Enter Tempetature in Fahrenheit</label>
+    <input type="number" id="Fahrenheit">
+    <button onclick="operation()">To Ceclious</button><br>
+    <label for="">Ans in Celcious</label>
+    <textarea name="" id="ans" cols="20" rows="1"></textarea>
+</body>
+
+</html>
