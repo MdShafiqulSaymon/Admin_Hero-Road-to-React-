@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Shoping Cart</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="titles">
+            <h2>Simple JavaScript Shopping Cart</h2>
+            <p>Simplified add to cart functionally Uses JavaScript and WebStorage API/Coockies to Remebered cart data converted to JSON formate</p>
+        </div>
+        <div class="presentProduct">
+            <p><span id="spans">0 </span> Product was added to the cart</p>
+        </div>
+        <div class="productBox">
+            <div class="product">
+                <img src="tshirt.png" alt="">
+                <h4>Polo T-Shirt</h4>
+                <p>Product discription</p>
+                <p>excert</p>
+                <p>$5.05</p>
+                <button class="addButton">Add To Cart</button>
+            </div>
+            <div class="product">
+                <img src="Easy.png" alt="">
+                <h4>Easy Shirt</h4>
+                <p>Product discription</p>
+                <p>excert</p>
+                <p>$5.05</p>
+                <button class="addButton">Add To Cart</button>
+            </div>
+            <div class="product">
+                <img src="CK.jpeg" alt="">
+                <h4>Adidas T-Shirt</h4>
+                <p>Product discription</p>
+                <p>excert</p>
+                <p>$5.05</p>
+                <button class="addButton">Add To Cart</button>
+            </div>
+            <div class="product">
+                <img src="easyTshirt.jpeg" alt="">
+                <h4>Calvin klein</h4>
+                <p>Product discription</p>
+                <p>excert</p>
+                <p>$5.05</p>
+                <button class="addButton">Add To Cart</button>
+            </div>
+        </div>
+        <div class="productCart">
+            <h3>CART</h3>
+            <table class="tables">
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                </tr>
+            </table>
+        </div>
+        <div class="totalPrice">
+            <table class="tables">
+                <tr>
+                    <th>Items</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td><span id="tot">X0</span></td>
+                    <td><span id="tot_p">0.0$</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="resetPlace">
+            <button class="rsButton">Empty Cart</button>
+            <button class="rsButton">Checkout</button>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

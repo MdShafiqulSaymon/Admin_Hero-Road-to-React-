@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 700px;
+    background-color: bisque;
+    margin: 20px auto 0px;
+    border: 5px solid green;
+}
+
+.titles {
+    text-align: center;
+    border: 0px solid red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titles h2 {
+    padding: 20px;
+    margin-top: 3px;
+}
+
+.presentProduct {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid;
+    border-color: rgb(48, 184, 170) bisque rgb(48, 184, 170) bisque;
+    text-align: center;
+}
+
+.presentProduct p {
+    padding: 5px;
+}
+
+.productBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.product {
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+    padding: 4px;
+    text-align: center;
+}
+
+.product img {
+    width: 80px;
+}
+
+.product button {
+    border-radius: 30px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+
+.productCart {
+    position: absolute;
+    width: 580px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    overflow: scroll;
+}
+
+.tables {
+    border-collapse: collapse;
+    min-width: 200px;
+    margin: 10px 30px 0 10px;
+    overflow: scroll;
+}
+
+.tables tr th {
+    background-color: #009879;
+    font-weight: bold;
+}
+
+.tables tr {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+#tables tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.totalPrice {
+    position: absolute;
+    right: 10px;
+    margin: 40px 10px 0px 0px;
+}
+
+.resetPlace {
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    right: 10px;
+}
+
+.rsButton {
+    padding: 6px;
+    margin: 3px;
+    border-radius: 30px;
+    background-color: #e3a107;
+    font-size: medium;
+    font-weight: 600;
+}
